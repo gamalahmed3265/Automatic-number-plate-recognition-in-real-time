@@ -20,7 +20,7 @@
 ```python
     from roboflow import Roboflow
 
-    rf = Roboflow(api_key="EStYCuY0ZbnoQe0Va8O2")
+    rf = Roboflow(api_key="your_api_key")
     project = rf.workspace("roboflow-universe-projects").project("license-plate-recognition-rxg4e")
     dataset = project.version(4).download("yolov8")
 ```
