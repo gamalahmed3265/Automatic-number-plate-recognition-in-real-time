@@ -8,6 +8,6 @@
 
 
 ### install method
-`bash
+```bash
     pip intall -r requirements.txt 
-`
+```
